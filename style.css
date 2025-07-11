@@ -9,7 +9,6 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   background: #f5f8ff;
- 
   line-height: 1.6;
 }
 
@@ -402,4 +401,58 @@ body {
 
 .footer-nav a:hover {
   color: #5551ff;
+}
+/* Focus CTA Section */
+.focus-cta-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0 40px 0;
+  background: #fff;
+}
+
+.focus-cta-content {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.focus-cta-content h1 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: #18181b;
+  margin-bottom: 16px;
+}
+
+.focus-cta-sub {
+  color: #7a7a87;
+  font-size: 1.15rem;
+  margin-bottom: 28px;
+}
+
+.focus-cta-btn {
+  display: inline-block;
+  background: #5551ff;
+  color: #fff;
+  padding: 14px 38px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s;
+  margin-bottom: 18px;
+}
+
+.focus-cta-btn:hover {
+  background: #3b36c8;
+}
+
+.focus-cta-image img {
+  width: 700px;
+  max-width: 95vw;
+  border-radius: 36px;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.10);
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }
