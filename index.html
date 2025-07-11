@@ -4,112 +4,155 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DarkFusion</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navbar Section -->
- <header class="navbar">
+ <!-- Navbar Section -->
+<nav class="navbar">
+  <div class="navbar-container">
     <div class="logo">DarkFusion</div>
-    <button class="btn">Sign Up</button>
- </header>
- <main>
-    <!-- Banner Section -->
-     <section class="banner">
-            <h1>Cool Dark UI Template for Webflow Agencies!</h1>
-            <button class="btn">Stay Foucsed</button>
-     </section>
+    <a href="#" class="signup-btn">Sign Up</a>
+  </div>
+</nav>
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="hero-content">
+    <h1>Cool UI Template for<br>DarkFusion Agencies!</h1>
+    <a href="#" class="focus-btn">Stay Focused</a>
+  </div>
+</section>
      <!-- Action Section -->
-      <section class="action">
-        <div class="left">
-            <h2>See It in Action</h2>
-            <p>Explore the live preview and imagine your brand in this bold new look.</p>
-            <button class="btn">Launch Live Preview</button>
-            <div class="right">
-                <img src="images/wc-mini.png">
+     <section class="action-section">
+      <div class="action-container">
+        <div class="action-text">
+          <h2>See It in Action</h2>
+          <p>Explore the live preview and imagine your brand in this bold new look.</p>
+          <a href="#" class="action-btn">Launch Live Preview</a>
+        </div>
+        <div class="action-image">
+          <img src="images/wc-big.png" alt="Webflow Conf Preview" />
+        </div>
+      </div>
+    </section>
+       <!-- Productive Users Section -->
+       <section class="stats-section">
+        <div class="stats-container">
+          <h2>Joined Thousands of Productive Users</h2>
+          <div class="stats-row">
+            <div class="stat-item">
+              <div class="stat-value">50K</div>
+              <div class="stat-label">Active Users</div>
             </div>
+            <div class="stat-item">
+              <div class="stat-value">2M+</div>
+              <div class="stat-label">Focus Sessions</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-value">95%</div>
+              <div class="stat-label">Satisfaction Rate</div>
+            </div>
+          </div>
         </div>
       </section>
-       <!-- Productive Users Section -->
-  <section class="productive">
-    <h2>Joined Thousands of Productive Users</h2>
-    <div class="stats">
-      <div><h3>50K</h3><p>Active Users</p></div>
-      <div><h3>2M+</h3><p>Focus Sessions</p></div>
-      <div><h3>95%</h3><p>Satisfaction Rate</p></div>
+ <!-- Testimonial Section -->
+ <section class="testimonials">
+  <h2>What our users say</h2>
+  <div class="testimonial-cards">
+    <!-- Card 1 -->
+    <div class="testimonial-card">
+      <div class="stars">
+        <img src="images/icon-star.png" alt="star" />
+        <img src="images/icon-star.png" alt="star" />
+        <img src="images/icon-star.png" alt="star" />
+        <img src="images/icon-star.png" alt="star" />
+        <img src="images/icon-star.png" alt="star" />
+      </div>
+      <h3>Loved by Designers</h3>
+      <p>This template instantly leveled up our presence.” ~ Studio Vertex</p>
+      <div class="reviewer">
+        <img src="images/avatar.png" alt="Reviewer" />
+        <div>
+          <span class="reviewer-name">Reviewer name</span>
+          <span class="review-date">Date</span>
+        </div>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="testimonial-card">
+      <div class="stars">
+        <img src="images/icon-star.png" alt="star" />
+        <img src="images/icon-star.png" alt="star" />
+        <img src="images/icon-star.png" alt="star" />
+        <img src="images/icon-star.png" alt="star" />
+        <img src="images/icon-star.png" alt="star" />
+      </div>
+      <h3>Loved by Designers</h3>
+      <p>This template instantly leveled up our presence.” ~ Studio Vertex</p>
+      <div class="reviewer">
+        <img src="images/avatar.png" alt="Reviewer" />
+        <div>
+          <span class="reviewer-name">Reviewer name</span>
+          <span class="review-date">Date</span>
+        </div>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="testimonial-card">
+      <div class="stars">
+        <img src="images/icon-star.png" alt="star" />
+        <img src="images/icon-star.png" alt="star" />
+        <img src="images/icon-star.png" alt="star" />
+        <img src="images/icon-star.png" alt="star" />
+        <img src="images/icon-star.png" alt="star" />
+      </div>
+      <h3>Loved by Designers</h3>
+      <p>This template instantly leveled up our presence.” ~ Studio Vertex</p>
+      <div class="reviewer">
+        <img src="images/avatar.png" alt="Reviewer" />
+        <div>
+          <span class="reviewer-name">Reviewer name</span>
+          <span class="review-date">Date</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+   <!-- lets Get In Touch Section -->
+   <section class="contact-section">
+    <div class="contact-container">
+      <div class="contact-title">
+        <h2>Let's Get in<br>Touch</h2>
+      </div>
+      <form class="contact-form">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="example@email.com" required>
+  
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="full name" required>
+  
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" placeholder="write your message...." required></textarea>
+  
+        <button type="submit">Get in Touch</button>
+      </form>
     </div>
   </section>
-  <!-- Feedback Section -->
-   <section class="feedback">
-    <h2>What our users say</h2>
-    <p>Loved by Designers</p>
-    <div class="review">
-        <div class="reviews">
-            <div class="star">
-                <img src="images/icon-star.png">
-                <img src="images/icon-star.png">
-                <img src="images/icon-star.png">
-                <img src="images/icon-star.png">
-                <img src="images/icon-star.png">
-            </div>
-            <p>This template instantly leveled up our presence.” – Studio Vertex</p>
-            <p><strong>Reviewer name</strong> | Date</p>
-          </div>
-          <div class="review">
-            <div class="stars">
-              <img src="images/icon-star.png">
-              <img src="images/icon-star.png">
-              <img src="images/icon-star.png">
-              <img src="images/icon-star.png">
-              <img src="images/icon-star.png">
-            </div>
-            <p>This template instantly leveled up our presence.” – Studio Vertex</p>
-            <p><strong>Reviewer name</strong> | Date</p>
-          </div>
-          <div class="review">
-            <div class="stars">
-              <img src="images/icon-star.png">
-              <img src="images/icon-star.png">
-              <img src="images/icon-star.png">
-              <img src="images/icon-star.png">
-              <img src="images/icon-star.png">
-            </div>
-            <p>This template instantly leveled up our presence.” – Studio Vertex</p>
-            <p><strong>Reviewer name</strong> | Date</p>
-          </div>
-        </div>
-      </section>
-        </div>
-    </div>
-   </section>
-   <!-- lets Get In Touch Section -->
-    <section class="contact">
-        <div class="contact-left">
-            <h2>Let's Get in Touch</h2>
-        </div>
-        <div class="contact-right">
-            <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Full name">
-
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Email address">
-            <label for="message">Message</label>
-            <textarea id="message" placeholder="write Your message..."></textarea>
-            <button class="btn">Get in Touch</button>
-        </div>
-    </section>
  </main>
+ <!-- footer section -->
  <footer>
-    <footer class="footer">
-        <h3>DarkFusion</h3>
-        <p>Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
-        <div class="footer-link">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">How it works</a>
-            <a href="#">Services</a>
-        </div>
-    </footer>
+  <section class="centered-footer">
+    <div class="footer-logo">DarkFusion</div>
+    <div class="footer-desc">
+      Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.
+    </div>
+    <nav class="footer-nav">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">How it Works</a>
+      <a href="#">Services</a>
+    </nav>
+  </section>
  </footer>
 </body>
 </html>
